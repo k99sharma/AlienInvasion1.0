@@ -47,7 +47,7 @@ def titleAndIcon():
 
 
 # Player
-playerImg = pygame.image.load(ship3)
+playerImg = pygame.image.load(ship2)
 
 # initial ship coordinates to appear on starting of game
 playerX = 370
@@ -78,7 +78,7 @@ def playerMovement(playerX, vel_change):
 # Enemy
 
 # Enemy image to load on the screen
-enemyImg = pygame.image.load(enemy4)
+enemyImg = pygame.image.load(enemy3)
 
 # using list for multiple enemies
 enemyX = []
